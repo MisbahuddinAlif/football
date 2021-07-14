@@ -1,0 +1,144 @@
+/* Poppins----font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+header{
+    background-color: #2D25A0;
+    height: 550px;
+    width: 1360px;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.navigation{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 30px;
+    align-items: center;
+}
+.nav{
+    margin-left: 150px;
+    color: white; 
+}
+.nav1{
+    margin-left: 50px;
+}
+.login{
+    margin-left: 250px;
+    width: 123px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 400;
+    border: 0;
+}
+
+.heading-1{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 33px;
+    
+}
+
+.main-heading{
+    display: flex;
+}
+
+.heading-2 img{
+    height: 320px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.watch{
+    width: 128px;
+    height: 38px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 400;
+    border: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.player img{
+    height: 246px;
+    width: 290px;
+    border-radius: 2px;
+}
+.player{
+    box-shadow: 5px 2px 5px 2px lightgray;
+    border-radius: 5px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+.player-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.player-words{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.container{
+    width: 870px;
+    height: 1850px;
+    margin-top: 30px;
+   
+}
+.container2{
+    display: flex;
+align-items: center;
+}
+.messi img{
+    height: 400px;
+    width: 540px;
+    border-radius: 3px;
+}
+.para{
+    height: 309px;
+    width: 467px;
+    margin-left: 200px;
+}
+.para-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+.smol-para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #6C6C6C;
+}
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.footer-image img{
+    height: 110px;
+    width: 483px;
+}
+.social-icons img{
+    height: 30px;
+    width: 30px;
+}
+.footer-last{
+    font-family: 'Poppins', sans-serif; 
+}
+
